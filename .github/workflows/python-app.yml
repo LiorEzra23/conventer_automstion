@@ -6,12 +6,12 @@ on:
       python-version:
         description: 'Python version'
         required: true
-        type: number
+        type: string  # Specify the data type as string
         default: '3.x'
       script:
         description: 'Python script to run'
-        type: number
         required: true
+        type: string  # Specify the data type as string
 
 jobs:
   build:
