@@ -1,4 +1,3 @@
-# my-repo/.github/workflows/python-app.yml
 name: Python application reusable workflow
 
 on:
