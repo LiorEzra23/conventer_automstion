@@ -1,0 +1,14 @@
+# my-repo/.github/workflows/use-python-app.yml
+name: Use Python application reusable workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: ./.github/workflows/python-app.yml
+    with:
+      python-version: '3.9'  # Specify the Python version you need
+      script: 'your_script.py'  # Replace with your script name
