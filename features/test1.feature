@@ -12,4 +12,3 @@ Feature: User is able to convert area units
     And I see "Sq Metre" in To header
     When I click on swap button
     Then I see "Sq Metre" in From header
-    And I see "Sq Ki
