@@ -11,6 +11,7 @@ on:
         default: '3.x'
       script:
         description: 'Python script to run'
+        type: number
         required: true
 
 jobs:
